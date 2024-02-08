@@ -2,7 +2,7 @@ HISTSIZE=10000
 
 alias ls="ls --color"
 alias ll="ls -l"
-alias mydotfiles='/usr/bin/git --git-dir=$HOME/.mydotfiles/ --work-tree=$HOME'
+alias mydotfiles='/usr/bin/git --git-dir=$HOME/.mydotfiles.git/ --work-tree=$HOME'
 if   type nvim > /dev/null; then export VISUAL="$(which nvim)"
 elif type vim  > /dev/null; then export VISUAL="$(which vim)"; fi
 
